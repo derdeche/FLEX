@@ -28,12 +28,13 @@
 
 .card:hover
 {
-    transform: translateY(-20px);
+    transform: translateY(-15px);
 }
 
 .card-header 
 {
     height: 200px;
+    position: relative;
     
     
 }
@@ -41,7 +42,7 @@
 .card-header img
 {
     width: 300px;
-    height: 200px;
+    height: 200px; 
     object-fit: cover;
     filter: grayscale(1);
     transition: 2s;
@@ -75,3 +76,15 @@
     font-weight: 300px ;
 }
 
+.coeur
+{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(237, 53, 96);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px 0 0 0;
+    
+
+}
