@@ -12,6 +12,8 @@
     min-height: 100vh;
     background-color: rgba(68, 117, 136, 0.548);
     justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .card
@@ -19,12 +21,13 @@
     background-color: white;
     width: 300px;
     border-radius: 10px;
-    border: 1px solid black;
+    
 }
 
 .card-header 
 {
     height: 200px;
+    
     
 }
 
@@ -35,6 +38,8 @@
     object-fit: cover;
     filter: grayscale(1);
     transition: 2s;
+    border-radius: 10px 10px 0 0;
+
 
 }
 
@@ -46,5 +51,16 @@
 .card-text
 {
   padding: 10px 20px 30px 15px ;  
+}
+
+.card-text h1
+{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.card-text
+{
+    font-size: 14px;
 }
 
