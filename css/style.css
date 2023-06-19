@@ -22,9 +22,10 @@
     background-color: white;
     width: 300px;
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+     rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;  /*ajouter de l ombre à la photo*/
     transition: 0.5s;
-    overflow: hidden;*/
+    overflow: hidden;
 }
 
 /*.card:hover
@@ -36,14 +37,12 @@
 {
     left: 0;
     transition: 2s;
-
 }
 
 .card-header 
 {
     height: 200px;
-    position: relative;
-    
+    position: relative;   
     
 }
 
@@ -51,18 +50,16 @@
 {
     width: 300px;
     height: 200px; 
-    object-fit: cover;
+    object-fit: cover; /*la photo se redimensionne pour prendre tt*/
     filter: grayscale(1);
     transition: 2s;
-    border-radius: 10px 10px 0 0;
-    
-
+    border-radius: 10px 10px 0 0;   
 
 }
 
 .card-header img:hover
 {
-    filter: grayscale(0);
+    filter: grayscale(0); /*filtre gris sur la photo avant de passer la souris*/
 }
 
 .card-text
@@ -73,7 +70,7 @@
 .card-text h1
 {
     font-size: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /*marge d'en bas*/
     color: black ;
 }
 
@@ -96,7 +93,7 @@
     background-color: rgba(237, 53, 96);
     position: absolute;
     top: 0;
-    left: -50px;
+    left: -50px; /*le carré rouge caché sur la gauche de 50 px*/
     border-radius: 10px 0 0 0;   
 
 }
